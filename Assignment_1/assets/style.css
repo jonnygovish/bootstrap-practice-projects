@@ -91,3 +91,7 @@ padding: 50px;
 	line-height: 0px;
 	margin: 0px 8px;
 }
+.products .left{
+    position: relative;
+    left: 93%;
+}
