@@ -58,6 +58,8 @@
     left: 50%;
 
 }
+/*Styling the products*/
+
 .products .checkboxes{
     background: #c4c4c4;
     padding: 50px;
@@ -65,4 +67,27 @@
 /*Styling the button*/
 .products .btn{
     background-color: crimson;
+    color: white;
+    position: absolute;
+    right: 70px;
+}
+/*Styling the items*/
+.products .items{
+padding: 50px;
+}
+.products .items p{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color:black;
+	margin: 8px 0px;
+}
+.products .items p::after{
+    content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 3px;
+	font-size: 0;
+	line-height: 0px;
+	margin: 0px 8px;
 }
