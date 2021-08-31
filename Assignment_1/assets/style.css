@@ -54,7 +54,15 @@
 }
 .home .img{
     position: absolute;
-    bottom: 0;
+    bottom: 30PX;
     left: 50%;
 
+}
+.products .checkboxes{
+    background: #c4c4c4;
+    padding: 50px;
+}
+/*Styling the button*/
+.products .btn{
+    background-color: crimson;
 }
