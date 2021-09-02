@@ -95,3 +95,25 @@ padding: 50px;
     position: relative;
     left: 93%;
 }
+.products .itemss p{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color:black;
+	margin: 8px 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.products .itemss p::before{
+    content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 3px;
+	font-size: 0;
+	line-height: 0px;
+	margin: 0px 8px;   
+}
+.products .left2{
+    position: relative;
+    left: 3%;
+}
