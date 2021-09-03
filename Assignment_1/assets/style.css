@@ -133,4 +133,13 @@ padding: 50px;
     transform: translate(-50%, -50%);
     border-style: solid;
     border-color: gray;
+    margin: auto;
+  }
+  .sale {
+      background-color:rgba(88, 87, 87, 0.767);
+      
+  }
+  .sale .container{
+    padding: 20px;
+    justify-content: space-around;
   }
