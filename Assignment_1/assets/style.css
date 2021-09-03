@@ -133,13 +133,25 @@ padding: 50px;
     transform: translate(-50%, -50%);
     border-style: solid;
     border-color: gray;
-    margin: auto;
+    
   }
   .sale {
       background-color:rgba(88, 87, 87, 0.767);
+      color: white;
       
   }
   .sale .container{
     padding: 20px;
     justify-content: space-around;
   }
+  .contacts{
+      background-color:rgb(29, 37, 46);
+      color: white;
+  }
+  .column{
+      float: left;
+      width: 33.33%;
+      padding: 30px;
+      text-align:justify;
+  }
+  
