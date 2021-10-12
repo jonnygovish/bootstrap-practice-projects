@@ -1,0 +1,157 @@
+/*navbar styling*/
+.nav-link{
+    color: white;
+}
+/* home section styling */
+.home{
+    display: flex;
+    background: url("backgrounds/hero.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.home .home-content .text-3{
+    font-size: 35px;
+    margin: 10px 20px;
+    text-align: center;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
+.home .img{
+    position: absolute;
+    bottom: 30PX;
+    left: 50%;
+
+}
+/*Styling the products*/
+
+.products .checkboxes{
+    background: #c4c4c4;
+    padding: 50px;
+}
+/*Styling the button*/
+.products .btn{
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    right: 70px;
+}
+/*Styling the items*/
+.products .items{
+padding: 50px;
+}
+.products .items p{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color:black;
+	margin: 8px 0px;
+}
+.products .items p::after{
+    content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 3px;
+	font-size: 0;
+	line-height: 0px;
+	margin: 0px 8px;
+}
+.products .left{
+    position: relative;
+    left: 93%;
+}
+.products .itemss p{
+    display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color:black;
+	margin: 8px 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.products .itemss p::before{
+    content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 3px;
+	font-size: 0;
+	line-height: 0px;
+	margin: 0px 8px;   
+}
+.products .left2{
+    position: relative;
+    left: 3%;
+}
+.about{
+    padding-top: 100px;
+}
+/*Styling the about section*/
+.about {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .about .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: gray;
+    
+  }
+  .sale {
+      background-color:rgba(88, 87, 87, 0.767);
+      color: white;
+      
+  }
+  .sale .container{
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .contacts{
+      background-color:rgb(29, 37, 46);
+      color: white;
+  }
+  .column{
+      float: left;
+      width: 33.33%;
+      padding: 30px;
+      text-align:justify;
+  }
+  
